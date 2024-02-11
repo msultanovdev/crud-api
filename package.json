@@ -1,0 +1,20 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.2",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5",
+    "uuid": "^9.0.1"
+  }
+}
