@@ -1,3 +1,10 @@
-import * as uuid from "uuid";
+const http = require('http');
+import app from './app';
 
-console.log(uuid.v4());
+const PORT = process.env.PORT || 3000;
+
+const server = http.createServer(app);
+
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
